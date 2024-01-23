@@ -687,22 +687,22 @@
 
     <div class="lg:col-span-2">
       <label for="text">Your Name</label>
-      <input type="text" placeholder="Enter Your Name" class="input input-bordered input-md w-full max-w-xs" />
+      <input type="text" placeholder="Enter Your Name" class="input input-bordered input-md w-full " />
     </div>
 
     <div class="lg:col-span-2 <label for="text">Your Email</label>
-      <input type="text" placeholder="Enter Your Email ID" class="input input-bordered input-md w-full max-w-xs">
+      <input type="text" placeholder="Enter Your Email ID" class="input input-bordered input-md w-full">
     </div>
 
 <!-- row-2 -->
 
-<div class="lg:col-span-2">
-  <label for="text">Subject</label>
-  <input type="text" placeholder="Write Here your Desire issue" class="input input-bordered input-md w-full max-w-xs" />
+<div class="lg:col-span-2 justify-center items-center">
+  <div><label for="text">Subject</label></div>
+  <div><input type="text" placeholder="Write Here your Desire issue" class="input input-bordered input-md w-full"/></div>
 </div>
 
 <div class="lg:col-span-2 <label for="text">Phone</label>
-  <input type="number" placeholder="Enter Your Phone Number" class="input input-bordered input-md w-full max-w-xs">
+  <input type="number" placeholder="Enter Your Phone Number" class="input input-bordered input-md w-full ">
 </div>
 
 <!-- row-3 -->
@@ -717,7 +717,8 @@
     </div>
 
     <div class="lg:col-span-4 row-span-4">
-      <textarea name="textarea" id="textarea" cols="75" rows="5">Write Your Message</textarea>
+      <label for="message">Message</label>
+      <textarea class="mt-3 opacity-65" name="textarea" id="textarea" cols="113" rows="5">Leave a comment</textarea>
     </div>
 
 <!-- row-4 -->
@@ -735,8 +736,10 @@
 
 <!-- row-6 -->
 
-    <div class="lg:col-span-3 row-span-2 h-3">
+    <div class="lg:col-span-3 row-span-2">
+
     </div>
+    
     <div class="lg:col-span-4 bg-red-500 h-3 btn hover:bg-red-800">
     <button class="text-white text-lg ">Send Message</button>
     </div>
@@ -748,75 +751,36 @@
 
 </section>
 
-          <footer class="footer p-10 bg-neutral text-neutral-content">
-            <nav>
-              <header class="footer-title">Services</header> 
-              <a class="link link-hover">Branding</a>
-              <a class="link link-hover">Design</a>
-              <a class="link link-hover">Marketing</a>
-              <a class="link link-hover">Advertisement</a>
+          <footer class="footer p-10 bg-neutral text-neutral-content flex flex-col justify-center lg:flex-row lg:justify-evenly items-center">
+            <nav class="cursor-pointer flex items-center flex-col">
+              <header class="footer-title text-red-300">Get In Touch</header> 
+              <p>Lorem ipsum dolor sit amet elit.</p>
+              <a class="link link-hover">
+                <i class="fa-solid fa-phone"></i>
+                +880-1912333460</a>
+              <a class="link link-hover">
+                <i class="fa-regular fa-envelope"></i>
+                zamanbd20@gmail.com</a>
             </nav> 
-            <nav>
-              <header class="footer-title">Company</header> 
+            <nav class="cursor-pointer flex items-center flex-col">
+              <header class="footer-title text-red-300">Company</header> 
               <a class="link link-hover">About us</a>
               <a class="link link-hover">Contact</a>
               <a class="link link-hover">Jobs</a>
               <a class="link link-hover">Press kit</a>
             </nav> 
-            <nav>
-              <header class="footer-title">Legal</header> 
-              <a class="link link-hover">Terms of use</a>
-              <a class="link link-hover">Privacy policy</a>
-              <a class="link link-hover">Cookie policy</a>
+            <nav class="cursor-pointer flex items-center flex-col">
+              <header class="footer-title text-red-300">Support</header> 
+              <a class="link link-hover">24/7 call center</a>
+              <a class="link link-hover">personal mentor</a>
+              <a class="link link-hover">Physical support</a>
             </nav>
+            <nav class="cursor-pointer flex items-center flex-col">
+              <header class="footer-title text-red-300">Service</header> 
+              <a class="link link-hover">Training</a>
+              <a class="link link-hover">Practice facility</a>
+              <a class="link link-hover">Equipment</a>
+            </nav class="cursor-pointer">
           </footer>
-
-
-
-
-<!-- <div>
-  <div class="card shrink-0 w-full max-w-sm bg-base-100 grid grid-cols-4 grid-rows-6">
-
-    <div class=" gird justify-normal col-span-5">
-      <label>
-      <h1>Name</h1>
-      </label>
-      <input type="email" placeholder="Your Name" class="input input-bordered" required />
-    </div>
-
-    <div class="col-span-4">
-      <label class="label">
-        <span class="label-text">Subject</span>
-      </label>
-      <input type="email" placeholder="Phone Number" class="input input-bordered" required />
-    </div>
-
-    <div class="">
-      <label class="label">
-        <span class="label-text">Phone Number</span>
-      </label>
-      <input type="email" placeholder="Phone Number" class="input input-bordered" required />
-    </div>
-
-    <div class="">
-      <label class="label">
-        <span class="label-text">Email</span>
-      </label>
-      <input type="email" placeholder="email" class="input input-bordered" required />
-    </div>
-    
-    <div>
-      <label class="label">
-        <span class="label-text">Message</span>
-      </label>
-    <textarea class="border-2 border-bg-gray-400" name="textarea" id="textarea" cols="30" rows="10">Write your messeage here</textarea>
-    </div>
-
-    <div class="mt-6">
-      <button class="btn bg-red-500 text-white">Send Message</button>
-    </div>
-  
-</div> 
-</div> -->
 </body>
 </html>
